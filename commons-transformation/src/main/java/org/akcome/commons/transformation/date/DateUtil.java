@@ -459,7 +459,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期字符串
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加小时后的日期字符串
 	 */
@@ -472,7 +472,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加小时后的日期
 	 */
@@ -485,7 +485,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期字符串
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加分钟后的日期字符串
 	 */
@@ -498,7 +498,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加分钟后的日期
 	 */
@@ -511,7 +511,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期字符串
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加秒钟后的日期字符串
 	 */
@@ -524,7 +524,7 @@ public class DateUtil {
 	 * 
 	 * @param date
 	 *            日期
-	 * @param dayAmount
+	 * @param hourAmount
 	 *            增加数量。可为负数
 	 * @return 增加秒钟后的日期
 	 */

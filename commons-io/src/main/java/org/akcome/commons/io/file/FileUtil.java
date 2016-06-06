@@ -544,11 +544,10 @@ public class FileUtil {
 
 	   /**
 	    * 根据内容生成文件
-	    * @param path要生成文件的绝对路径，
-	    * @param 文件的内容。
-	    * @return 真假值
-	    * @throws  IOException
-	    * @since  1.0
+	    * @param path 要生成文件的绝对路径，
+	    * @param modulecontent 文件的内容。
+	    * @throws IOException
+	    * @since 1.0
 	    */
 	   public static final boolean genModuleTpl(String path, String modulecontent)  throws IOException
 	   {
@@ -573,8 +572,7 @@ public class FileUtil {
 
 	   /**
 	    * 获取图片文件的扩展名
-	    * @param picname 为图片名称加上前面的路径不包括扩展名
-	    * @return 图片的扩展名
+	    * @param pic_path 为图片名称加上前面的路径不包括扩展名
 	    * @since  1.0
 	    */
 	   public static final String getPicExtendName(String pic_path)
@@ -733,7 +731,7 @@ public class FileUtil {
 	     * 从文件路径中抽取文件的扩展名, 例如. "mypath/myfile.txt" -> "txt". * @author peng_wang 
 	     *  
 	     * @date 2015年11月24日 
-	     * @param 文件路径 
+	     * @param path 文件路径
 	     * @return 如果path为null，直接返回null。 
 	     */  
 	    public static String getFilenameExtension(String path) {  

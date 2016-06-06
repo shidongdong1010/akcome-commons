@@ -371,8 +371,8 @@ public class ExcelUtil {
     
     /**  
      * 将一个object添加到一个数组中，并返回一个新数组。  
-     * @param array被添加到的数组  
-     * @param object 被添加的object  
+     * @param array 被添加到的数组
+     * @param obj 被添加的object
      * @return T[] 返回的新数组  
      */  
     private  static <T> T[] addObjectToArray(T[] array, T obj) {  

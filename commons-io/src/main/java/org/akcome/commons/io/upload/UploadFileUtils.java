@@ -49,9 +49,9 @@ public class UploadFileUtils {
      * <b>function:</b>通过输入流参数上传文件 
      * @author hoojo 
      * @createDate Oct 9, 2010 11:22:47 PM 
-     * @param uploadFileName 文件名称 
-     * @param savePath 保存路径 
-     * @param InputStream 上传的文件的输入流 
+     * @param fileName 文件名称
+     * @param path 保存路径
+     * @param is 上传的文件的输入流
      * @return 是否上传成功 
      * @throws Exception 
      */  
